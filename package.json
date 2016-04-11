@@ -1,0 +1,21 @@
+{
+  "name": "damson",
+  "description": "Intermediary between your interfaces",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damsonjs/damson.git"
+  },
+  "scripts": {
+    "test": "jshint *.js"
+  },
+  "author": "Andrey Zhylin <andrey.zhylin@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "damson-core": "0.0.1",
+    "damson-driver-cli": "0.0.2",
+    "damson-driver-file": "0.0.2",
+    "damson-send-message": "0.0.1"
+  }
+}
